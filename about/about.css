@@ -1,0 +1,165 @@
+body{
+	font-family: Arial,sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #32312F;
+}
+.clearfix::after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear:both;
+}
+header{
+	background: url(../img/room.jpg) no-repeat center top / cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+.container{
+	width: 930px;
+	margin: 0 auto;
+}
+.logo{
+	width: 180px;
+	height: 50px;
+	margin-top: 28px;
+	float: left;
+}
+nav{
+	float: right;
+	margin-top: 43px;
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px
+}
+.menu a{
+	color: #32312F;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.tm-nav-item-link {
+  color: #726D67;
+  display: block;
+  padding: 5px;
+  width: 100%;
+  transition: all .45s;
+}
+.tm-nav-item-link.active,
+.tm-nav-item-link:hover {
+  color: #726D67;
+  text-decoration: underline;
+	padding-right: 20px;
+}
+.tm-nav-item-link:focus {
+  text-decoration: none;
+}
+.titles_first{
+	font-size: 40px;
+	color: #32312F;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+letter-spacing: 2px;
+}
+h1{
+	font-size: 75px;
+	color: #32312F;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+.button{
+	background: #ACA199;
+	color: #32312F;
+	border-radius: 5px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 60px;
+}
+#about{
+	background: #EDE9E5;
+}
+.about{
+margin-top: 50px;
+margin-bottom: 110px;
+}
+.about img{
+	float: left;
+	margin-right: 50px;
+}
+.about h3{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 22px;
+		padding-right: 20px;
+	padding-bottom: 30px;
+	line-height: 1.3em;
+}
+.about p{
+	padding-right: 20px;
+	font-size: 18px;
+	line-height: 1.55em;
+	color: #7C7976;
+}
+.title{
+	padding-top: 110px;
+}
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+.title p{
+	color: #32312F;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 8px;
+}
+.contact{
+margin-top: 50px;
+}
+.contact_item{
+	width: 290px;
+	float: left;
+	text-align: center;
+	line-height: 1.55em;
+}
+.contact_item h3{
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.contact_item p{
+	font-size: 14px;
+	color: #766E68;
+}
+.contact_item:last-child{
+	float: right;
+}
+.contact_item:nth-child(2){
+	margin-left: 35px;
+}
+#contact{
+	padding-bottom: 40px
+}
+.tm-footer {
+    color: #696764 ;
+		text-align: center;
+		font-size: 14px;
+}
